@@ -1,0 +1,18 @@
+export const BUSINESS_TYPE_LABELS: { id: string; label: string }[] = [
+  { id: "beauty-salon", label: "Beauty salon" },
+  { id: "hair-salon", label: "Hair salon" },
+  { id: "barber-salon", label: "Barber salon" },
+  { id: "nail-salon", label: "Nail Salon" },
+  { id: "makeup-studio", label: "Makeup Studio" },
+  { id: "brows-lashes", label: "Brows & lashes" },
+  { id: "massage-spa", label: "Massage & Spa" },
+  { id: "medspa", label: "MedSpa" },
+  { id: "waxing-salon", label: "Waxing salon" },
+  { id: "clinics", label: "Clinics" },
+  { id: "tattooing-piercing", label: "Tattooing & Piercing" },
+  { id: "tanning-studio", label: "Tanning studio" },
+  { id: "physical-therapist", label: "Physical therapist" },
+  { id: "gym-fitness", label: "Gym & fitness" },
+  { id: "photography", label: "Photography" },
+  { id: "others", label: "Others" },
+];
