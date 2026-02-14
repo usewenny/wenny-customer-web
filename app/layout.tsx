@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Wenny",
   description: "Beauty booking and business management, simplified.",
   icons: {
-    icon: "/app-favicon.png",
+    icon: "/favicon.ico",
   },
 };
 
