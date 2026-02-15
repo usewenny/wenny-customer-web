@@ -4,7 +4,7 @@ import { DropdownOption } from "@/components/dropdown-selection";
 export const WAITLIST_FORM_URL = "https://forms.gle/4bGvrCUhS6rb5NSt9";
 
 /** URL for customer waitlist (Wenny's Customer Info / beauty and wellness customer form) */
-export const CUSTOMER_FORM_URL = "https://forms.gle/pMctqa7eZPBCdgpR6";
+export const CUSTOMER_FORM_URL = "https://forms.gle/PkXZdyTCemTVRN9y7";
 
 export const NIGERIAN_STATES: DropdownOption[] = [
   { value: "abia", label: "Abia" },

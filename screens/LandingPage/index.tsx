@@ -20,13 +20,12 @@ const LandingPage = () => {
         <HeroSection />
         <BusinessTypesSection />
         <OneToolSection />
-        <ReachNewCustomersSection />
-        <SecureYourTimeSection />
-        <AutomatedRemindersSection />
-        <EliminateMagicSection />
-        {/* <section id="why">
-          <WhyUs />
-        </section> */}
+        <section id="why">
+          <ReachNewCustomersSection />
+          <SecureYourTimeSection />
+          <AutomatedRemindersSection />
+          <EliminateMagicSection />
+        </section>
         <section id="faqs">
           <Faq />
         </section>

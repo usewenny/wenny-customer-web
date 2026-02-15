@@ -79,9 +79,7 @@ const Footer = () => {
             <Image
               src={appDarkLogo}
               alt="Wenny"
-              className="h-[29px] w-[115px] object-contain brightness-0 invert"
-              width={120}
-              height={32}
+              className="w-[80px] h-[23px] object-contain brightness-0 invert"
             />
           </div>
 
