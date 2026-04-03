@@ -61,9 +61,9 @@ const GrowYourEmpireSection = () => {
             href={WAITLIST_FORM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3.5 rounded-[10px] bg-[#12141D] text-white font-semibold text-base md:text-[16px] hover:bg-[#282A3A] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#12141D] focus-visible:ring-offset-2"
+            className="inline-block px-8 py-3.5 rounded-[10px] bg-[#12141D] text-white font-bold text-base md:text-[16px] hover:bg-[#282A3A] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#12141D] focus-visible:ring-offset-2"
           >
-            Join Wenny
+            Apply for early access
           </a>
         </motion.div>
       </div>

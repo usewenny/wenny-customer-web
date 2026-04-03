@@ -5,8 +5,9 @@ import { inter, montserrat, lato } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Wenny",
-  description: "Beauty booking and business management, simplified.",
+  title: "Wenny - Book salons and spas near you.",
+  description:
+    "Discover top-rated salons, spas, studios, clinics and beauty pros around your area.",
   icons: {
     icon: "/favicon.ico",
   },

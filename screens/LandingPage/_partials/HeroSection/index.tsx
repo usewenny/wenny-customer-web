@@ -71,7 +71,7 @@ const HeroSection = () => {
             className="text-[32px] sm:text-[38px] md:text-5xl lg:text-[62px] font-lato font-bold text-[#011627] mb-3 sm:mb-4 md:mb-5 lg:mb-[26px] leading-tight"
             {...HEADLINE_ANIMATION}
           >
-            Focus on your{" "}
+            {/* Focus on your{" "}
             <span className="relative inline-block text-[#3CB472]">
               craft
               <span
@@ -79,16 +79,24 @@ const HeroSection = () => {
                 aria-hidden
               />
             </span>
-            , let&apos;s handle the business
+            , let&apos;s handle the business */}
+            More bookings,{" "}
+            <span className="relative inline-block text-[#3CB472]">
+              less chaos,
+              <span
+                className="absolute -bottom-0.5 left-0 right-0 h-[2px] md:h-[2px] bg-[#3CB472] rounded-sm -z-10"
+                aria-hidden
+              />
+            </span>{" "}
+            stay organized with Wenny.
           </motion.h1>
 
           <motion.p
             className="text-[15px] sm:text-[17px] md:text-[20px] text-[#00000080] max-w-3xl font-medium font-montserrat mx-auto leading-relaxed mb-5 sm:mb-6 md:mb-8 lg:mb-10"
             {...SUBHEADING_ANIMATION}
           >
-            Stop chasing payments and answering calls. Let Wenny handle
-            bookings, deposits, and reminders. Join the waitlist to get early
-            access.
+            Built for salons, spas, studios, clinics, and beauty pros to help
+            them grow and manage their business with ease.
           </motion.p>
 
           <motion.div {...BUTTON_ANIMATION} className="flex justify-center">
@@ -96,9 +104,9 @@ const HeroSection = () => {
               href={WAITLIST_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-3.5 border-[1px] border-[#011627] text-[#131111] font-montserrat font-semibold text-[15px] sm:text-base md:text-[17px] rounded-[10px] bg-[#3CB472] hover:bg-primary-700 transition-colors shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+              className="inline-block px-8 py-3.5 border-[1px] border-[#3CB472] text-white font-montserrat font-bold text-[15px] sm:text-base md:text-[17px] rounded-[10px] bg-[#3CB472] hover:bg-primary-700 transition-colors shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
             >
-              Join Waitlist
+              Join early access
             </a>
           </motion.div>
         </div>

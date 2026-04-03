@@ -55,7 +55,7 @@ const SecureYourTimeSection = () => {
                   aria-hidden
                 />
               </motion.span>{" "}
-              Deposits
+              Payment
             </motion.h2>
             <motion.p
               className="text-[#00000080] font-montserrat text-base md:text-[20px] leading-relaxed"

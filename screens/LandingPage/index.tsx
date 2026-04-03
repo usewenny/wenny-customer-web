@@ -19,13 +19,13 @@ const LandingPage = () => {
       <main className="w-full min-w-0 pt-20">
         <HeroSection />
         <BusinessTypesSection />
-        <OneToolSection />
         <section id="why">
           <ReachNewCustomersSection />
           <SecureYourTimeSection />
           <AutomatedRemindersSection />
           <EliminateMagicSection />
         </section>
+        <OneToolSection />
         <section id="faqs">
           <Faq />
         </section>
