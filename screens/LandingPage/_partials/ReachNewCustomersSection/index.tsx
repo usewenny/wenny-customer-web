@@ -24,7 +24,7 @@ const ReachNewCustomersSection = () => {
       className="pt-16 pb-0 md:py-[89px] bg-white overflow-hidden"
     >
       <div className="pl-4 pr-4 sm:pl-6 sm:pr-6 md:pl-10 md:pr-10 lg:px-[40px] xl:px-[50px]">
-        <div className="flex flex-col lg:flex-row lg:items-center gap-12 lg:gap-16">
+        <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-12 lg:gap-16">
           {/* Left: image — lift-in + scale */}
           <motion.div
             className="relative flex-1 min-h-[380px] md:min-h-[440px] max-w-[576px] flex items-center justify-center lg:justify-start"
